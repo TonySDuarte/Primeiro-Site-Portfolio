@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tony S.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style>
+    
+    body{
+        margin: 0;
+        border: none;
+        font: inherit;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .bass{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 23rem;
+        padding: 3rem 4rem;
+    }
+     
+    .bass ol li p{
+        color: rgba(0, 0, 0, 0.733);
+    }
+    
+    #tittle{
+        color: black;
+    }
+    
+    .bold{
+        font-weight: bold;
+    }
+    
+    time{
+        color: rgba(82, 82, 82, 0.76);
+        font-size: 12px;
+    }
+    
+    .space{
+        width: 70%;
+        border-top: 1px solid rgba(0, 0, 0, 0.171);
+    }
+    
+    .cover {
+        background-image: url("imgs/fundo.png");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: fixed;
+        width: 360px;
+        height: 100%;
+        padding: 0;
+        font-size: 20px;
+    }
+    
+    .container{
+        margin-top: 145px;
+        width: 300px;
+        height: 100%;
+        position: absolute;
+        left: 2rem;
+        right: 2rem;
+    }
+    
+    label[for="bt_menu"]{
+        background-color: #05070c;
+        color: #fff;
+        font-family: "Arial";
+        text-align: center;
+        font-size: 20px;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        padding: 0;
+    }
+    
+    #bt_menu{
+        display: none;
+    }
+    
+    label[for="bt_menu"]{
+        display: none;
+    }
+    
+    @media(max-width: 800px) {
+        label[for="bt_menu"]{
+            display: block;
+        }
+    
+        .bass{
+            position: relative;
+            padding: 6rem 1rem;
+            left: 0;
+        }
+    
+        #bt_menu:checked ~ .bass{
+            position: absolute;
+            left: 23rem;
+            padding: 2rem 3rem;
+        }
+    
+        .cover{
+            margin-left: -100%;
+            transition: all .4s;
+        }
+    
+        #bt_menu:checked ~ .cover{
+            margin-left: 0;
+        }
+        
+    }
+    
+    .hp{
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    
+    .stamina{
+        position: absolute;
+        margin-top: 85px;
+        margin-left: 15px;
+    }
+    
+    .mana{
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 10px;
+    }
+    
+    .name{
+        position: absolute;
+        margin-top: 190px;
+        left: 15px;
+    }
+    
+    .prog{
+        position: absolute;
+        margin-top: 225px;
+        left: 45px;
+    }
+    
+    .prog_logo{
+        position: absolute;
+        margin-top: 222px;
+        left: 15px;
+    }
+    
+    .sexo-logo{
+        position: absolute;
+        margin-top: 1rem;
+    }
+    
+    .espaco-level{
+        position: absolute;
+        right: 0;
+    }
+    
+    #espaco-skill1{
+        position: absolute;
+        margin-top: 1.3rem;
+    }
+    
+    .espaco-level1{
+        position: absolute;
+        right: 0;
+    }
+    
+    .logo ul li{
+        display: inline-block;
+    }
+    
+    .logo{
+        margin-top: 100px;
+    }
+    </style>
+</style>
+
+<body>
+
+    <aside class="cover" style="color: white;"> <!-- Painel Principal -->
+
+        <div>
+            <img src="imgs/foto.png" alt="Foto perfil" width="165" height="165">
+            <img class="prog_logo" src="imgs/prog.png" alt="Foto perfil" width="25" height="25">
+            <img class="sexo-logo" src="imgs/sexo.png" alt="Foto perfil" width="20" height="20">
+            
+            <a class="hp">Health  100/100</a>
+            <a class="stamina">  Stamina 90/100</a>
+            <a class="mana">Mana 0/0</a>
+            <a class="name">Tony S. Duarte</a>
+            <a class="prog">Programmer</a>
+        </div>
+
+
+        <div class="container">
+
+            <div class="bold">
+                <p1>Skill</p1>
+                <p2 class="espaco-level">Level</p2>
+            </div>
+
+            <hr>
+            
+            <div>
+                <p1>Front-end</p1>
+                <p2 class="espaco-level">Medium II</p2>
+            </div>
+
+            <hr>
+
+            <div>
+                <p1>Back-end</p1>
+                <p2 class="espaco-level1">Medium II</p2>
+            </div>
+
+            <hr>
+
+            <div>
+                <p1>Mobile</p1>
+                <p2 class="espaco-level1">Beginner III</p2>
+            </div>
+
+            <hr>
+
+            <div class="logo">
+                <a href="https://www.facebook.com/TonySDuarte" target="blank">
+                    <img src="imgs/face-logo.png" width="30" height="30">
+                </a>
+                <a href="https://www.instagram.com/tony.sandro/" target="blank">
+                    <img src="imgs/insta-logo.png" width="30" height="30">
+                </a>
+            </div>
+            
+        </div>
+
+    </aside>
+    
+    <article class="bass"> <!-- Corpo -->
+        <section>
+            <article>
+                <header>
+                    <img class="post-image" src="imgs/post01.png" alt="Site do codigo" 
+                    style="max-width: 100%; height: auto;">
+                    <h2>Primeiro projeto #01 Site pessoal</h2>
+                </header>
+                <section>
+                    <p>
+                        Projeto do site pessoal concluído. 
+                        Após várias recomendações de produzir um site/blog pessoal 
+                        de profissionais da área, resolvi fazer o meu site não só para 
+                        praticar meu front-end, mas também acompanhar meu progresso como profissional.
+                        códigos
+                    </p>
+                    <a href="https://pastebin.com/raw/84NpZrqy" style="text-decoration: none">
+                        CSS
+                    </a>
+                    <br>
+                    <a href="https://pastebin.com/raw/Wsc4puXf" style="text-decoration: none">
+                        HTML
+                    </a>
+                    
+                </section>
+            </article>
+        </section>
+
+    </article>
+    
+</body>
+</html>

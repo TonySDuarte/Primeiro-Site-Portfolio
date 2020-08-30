@@ -1,0 +1,8 @@
+Estudo flutter
+
+  Comprei um curso de flutter no finalzinho de Junho para estudar
+nas horas vagas. O curso têm demanda de 47,5 horas e eu estou atualmente na 
+metade. No geral, apesar do metodo de ensino do professor não ser dos melhores, ele
+não deixa a desejar em conhecimento, trazendo varios aplicativos reais, bem construidos
+e completos para dentro do curso, Como Whatsapp, Uber Mapas e Geolocalição. Tbm têm uma
+seção de FireBase, com 3H de aulas.
